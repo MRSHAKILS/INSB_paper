@@ -16,11 +16,11 @@
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 25px;
     cursor: pointer;
     transition: 0.3s;
     text-decoration: none;
 }
+
 
 .paper-link:hover {
     background: linear-gradient(to bottom, #333, #000);
