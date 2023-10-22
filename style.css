@@ -5,9 +5,25 @@
     width: 100%; /* Reduced card size to fit properly */
     margin: auto;
 }
+.img-fluid {
+    height: 10%;
+    width: 10%;
+    border-radius: 8px 8px 0 0;
+    margin: 10px;
+}
 
 .card:hover {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.card-text {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1px;
 }
 
 .paper-link {
@@ -28,4 +44,8 @@
 
 .text-center {
     text-align: center;
+}
+
+.paper-link{
+    margin: 10px;
 }
